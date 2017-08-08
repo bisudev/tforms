@@ -1,0 +1,17 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "no-tabs": 1,
+    "semi": ["warn", "never"],
+    "comma-dangle": ["warn", "always-multiline"],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
+      }
+    ],
+    "react/jsx-indent": ["error", 2],
+    "react/style-prop-object": 0
+  }
+}

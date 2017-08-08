@@ -1,0 +1,27 @@
+{
+  "editor.fontFamily": "Monaco",
+  "editor.fontSize": 10,
+  "editor.lineHeight": 24,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderIndentGuides": true,
+  "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
+  "search.exclude": {
+    "**/vendor": true,
+    "**/node_modules": true,
+    "**/bower_components": true
+  },
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "workbench.colorTheme": "Oceanic Next",
+  "prettier.eslintIntegration": true,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "explorer.autoReveal": false,
+  "prettier.semi": false,
+  "prettier.useTabs": false,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
+}

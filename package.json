@@ -4,14 +4,9 @@
   "description": "tforms React component",
   "main": "lib/index.js",
   "module": "es/index.js",
-  "files": [
-    "css",
-    "es",
-    "lib",
-    "umd"
-  ],
+  "files": ["css", "es", "lib", "umd"],
   "scripts": {
-    "build": "nwb build-react-component",
+    "build": "nwb build-react-component --copy-files",
     "clean": "nwb clean-module && nwb clean-demo",
     "start": "nwb serve-react-demo",
     "test": "nwb test-react",
@@ -23,7 +18,16 @@
     "react": "15.x"
   },
   "devDependencies": {
+    "babel-eslint": "7.2.3",
+    "bootstrap-sass": "3.3.7",
+    "eslint": "3.19.0",
+    "eslint-config-react-app": "1.0.5",
+    "eslint-plugin-flowtype": "2.33.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-react": "7.0.1",
     "nwb": "0.18.x",
+    "nwb-sass": "0.8.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
@@ -31,7 +35,5 @@
   "homepage": "",
   "license": "MIT",
   "repository": "",
-  "keywords": [
-    "react-component"
-  ]
+  "keywords": ["react-component"]
 }
