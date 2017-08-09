@@ -31,20 +31,23 @@
         padding: 0 5px;
       }
 
+      > div > label {
+        font-size: 11px;
+        color: $gray-light;
+        text-transform: uppercase;
+        font-weight: normal;
+        letter-spacing: 1px;
+      }
+
       &:last-child {
         border-right: none;
       }
       &:hover {
-        background-color: lighten($brand-warning, 35%);
+        background-color: lighten($brand-warning, 36.8%);
       }
-    }
-
-    label {
-      font-size: 11px;
-      color: $gray-light;
-      text-transform: uppercase;
-      font-weight: normal;
-      letter-spacing: 1px;
+      &.isfocused {
+        background-color: lighten($brand-warning, 34%);
+      }
     }
   }
 

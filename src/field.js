@@ -32,9 +32,9 @@ class Field extends Component {
       <div
         ref={c => (this._ref = c)}
         className="tforms--field"
+        onClick={this._onClick}
         style={{ flexGrow: Number(span), flexBasis: Number(span) }}
         {...props}
-        onClick={this._onClick}
       >
         <div>
           {children}

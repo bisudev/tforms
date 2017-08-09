@@ -1,7 +1,7 @@
 {
   "name": "tforms",
-  "version": "1.0.0",
-  "description": "tforms React component",
+  "version": "1.0.1",
+  "description": "React Form Layout inspired by gridforms. This implementation uses flexbox.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": ["css", "es", "lib", "umd"],
@@ -32,8 +32,8 @@
     "react-dom": "^15.6.1"
   },
   "author": "",
-  "homepage": "",
+  "homepage": "https://github.com/bisudev/tforms",
   "license": "MIT",
-  "repository": "",
+  "repository": "git@github.com:bisudev/tforms.git",
   "keywords": ["react-component"]
 }

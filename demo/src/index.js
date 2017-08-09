@@ -33,9 +33,33 @@ class Demo extends Component {
                     <Field>
                       <label htmlFor=".salute">TITLE</label>
                       <div>
-                        <input type="radio" name="title" value="mr" />Mr.
-                        <input type="radio" name="title" value="mrs" />Mrs.
-                        <input type="radio" name="title" value="ms" />Ms.
+                        <label className="radio-inline">
+                          <input
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="inlineRadio1"
+                            value="option1"
+                          />{' '}
+                          Mr.
+                        </label>
+                        <label className="radio-inline">
+                          <input
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="inlineRadio2"
+                            value="option2"
+                          />{' '}
+                          Mrs.
+                        </label>
+                        <label className="radio-inline">
+                          <input
+                            type="radio"
+                            name="inlineRadioOptions"
+                            id="inlineRadio3"
+                            value="option3"
+                          />{' '}
+                          Ms.
+                        </label>
                       </div>
                     </Field>
                     <Field span="2" data-disabled="true">
