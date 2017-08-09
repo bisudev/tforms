@@ -1,11 +1,8 @@
 # tforms
 
-[![npm package][npm-badge]][npm]
+[![npm version](https://badge.fury.io/js/tforms.svg)](https://badge.fury.io/js/tforms)
 
 React Form Layout inspired by [gridforms](https://github.com/kumailht/gridforms). This implementation uses flexbox.
-
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.com/package/tforms
 
 ## [Live Demo](https://bisudev.github.io/tforms/)
 
@@ -26,18 +23,24 @@ const UserForm = () => (
     <Fieldset legend="User Login">
       <Row>
         <Field>
-          <label htmlFor="username">Username</label>
-          <input type="text" className="form-control" />
+          <div>
+            <label htmlFor="username">Username</label>
+            <input type="text" className="form-control" />
+          </div>
         </Field>
       </Row>
       <Row>
         <Field span="3">
-          <label htmlFor="username">One third</label>
-          <input type="text" className="form-control" />
+          <div>
+            <label htmlFor="username">One third</label>
+            <input type="text" className="form-control" />
+          </div>
         </Field>
         <Field>
-          <label htmlFor="username">One fourth</label>
-          <input type="text" className="form-control" />
+          <div>
+            <label htmlFor="username">One fourth</label>
+            <input type="text" className="form-control" />
+          </div>
         </Field>
       </Row>
       <button type="submit">Button</button>
