@@ -1,19 +1,13 @@
 # tforms
 
-[![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
 
-React Form Layout inspired by gridforms. This implementation uses flexbox.
-
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+React Form Layout inspired by [gridforms](https://github.com/kumailht/gridforms). This implementation uses flexbox.
 
 [npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+[npm]: https://www.npmjs.com/package/tforms
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+## [Live Demo](https://bisudev.github.io/tforms/)
 
 ## Install
 
