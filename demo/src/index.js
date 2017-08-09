@@ -13,6 +13,9 @@ class Demo extends Component {
           <div className="row">
             <div className="col-sm-12">
               <h1>tforms Demo</h1>
+              <hr />
+              <a href="https://github.com/bisudev/tforms">Github Repo</a>
+              <hr />
               <h2>Personal Bank Account Initial Application</h2>
               <form className="tforms">
                 <Fieldset legend="Please open an account at" disabled>
@@ -91,6 +94,22 @@ class Demo extends Component {
                         <option>4</option>
                         <option>5</option>
                       </select>
+                    </Field>
+                  </Row>
+                  <Row>
+                    <Field span="2">
+                      <label htmlFor="email">Email</label>
+                      <input type="text" className="form-control" />
+                    </Field>
+                    <Field>
+                      <label htmlFor="mobile">Mobile No</label>
+                      <input type="text" className="form-control" />
+                    </Field>
+                    <Field>
+                      <label htmlFor="banke">
+                        Existing Bank Account No. (if any)
+                      </label>
+                      <input type="text" className="form-control" />
                     </Field>
                   </Row>
                 </Fieldset>
