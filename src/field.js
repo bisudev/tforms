@@ -36,9 +36,7 @@ class Field extends Component {
         style={{ flexGrow: Number(span), flexBasis: Number(span) }}
         {...props}
       >
-        <div>
-          {children}
-        </div>
+        {children}
       </div>
     )
   }
