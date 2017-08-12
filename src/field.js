@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import cn from 'classnames'
 
 class Field extends Component {
   _ref = null
@@ -27,11 +28,12 @@ class Field extends Component {
   }
 
   render() {
-    const { children, span, ...props } = this.props
+    const { children, className, span, ...props } = this.props
+    const cl = cn('tforms--field', className)
     return (
       <div
         ref={c => (this._ref = c)}
-        className="tforms--field"
+        className={cl}
         onClick={this._onClick}
         style={{ flexGrow: Number(span), flexBasis: Number(span) }}
         {...props}
