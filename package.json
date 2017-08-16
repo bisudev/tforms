@@ -1,6 +1,6 @@
 {
   "name": "tforms",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Form Layout inspired by gridforms. This implementation uses flexbox.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "babel-eslint": "7.2.3",
-    "bootstrap-sass": "3.3.7",
+    "bootstrap": "4.0.0-beta",
     "eslint": "3.19.0",
     "eslint-config-react-app": "1.0.5",
     "eslint-plugin-flowtype": "2.33.0",

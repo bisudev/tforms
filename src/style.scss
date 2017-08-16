@@ -8,8 +8,8 @@
 
     legend {
       border: none;
-      border-bottom: 4px solid $gray;
-      color: $gray;
+      border-bottom: 4px solid $gray-800;
+      color: $gray-800;
       margin: 0;
       padding-bottom: 5px;
       font-size: 18px;
@@ -21,10 +21,10 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border-bottom: 1px solid $gray;
+    border-bottom: 1px solid $gray-800;
 
     .tforms--field {
-      border-right: 1px solid $gray;
+      border-right: 1px solid $gray-800;
       font-size: 18px;
 
       > * {
@@ -33,32 +33,32 @@
 
       > div > label {
         font-size: 11px;
-        color: $gray-light;
+        color: $gray-600;
         text-transform: uppercase;
         font-weight: normal;
-        letter-spacing: 1px;
+        letter-spacing: 0.05em;
+        margin-bottom: 0;
       }
 
       &:last-child {
         border-right: none;
       }
       &:hover {
-        background-color: lighten($brand-warning, 36.8%);
+        background-color: lighten($yellow, 47%);
       }
       &.isfocused {
-        background-color: lighten($brand-warning, 34%);
+        background-color: lighten($yellow, 45%);
       }
     }
   }
 
   // reset for .form-control
   .form-control {
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
     border: none;
-    box-shadow: none;
-    background: transparent;
+    background-color: transparent;
     font-size: 18px;
-    color: #121212;
   }
 
   // if fieldset is disabled
@@ -66,6 +66,6 @@
   fieldset[disabled] .tforms--field:hover,
   .tforms--field[data-disabled="true"],
   .tforms--field[data-disabled="true"]:hover {
-    background-color: $gray-lighter;
+    background-color: $gray-200;
   }
 }
