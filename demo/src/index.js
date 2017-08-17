@@ -154,6 +154,14 @@ class Demo extends Component {
                       </div>
                     </Field>
                   </Row>
+                  <Row>
+                    <Field>
+                      <div>
+                        <label htmlFor="is_active">Active</label>
+                        <input type="checkbox" className="form-control" />
+                      </div>
+                    </Field>
+                  </Row>
                 </Fieldset>
               </form>
             </div>
