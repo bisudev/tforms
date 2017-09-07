@@ -1,7 +1,8 @@
 {
   "name": "tforms",
-  "version": "1.0.5",
-  "description": "React Form Layout inspired by gridforms. This implementation uses flexbox.",
+  "version": "1.0.6",
+  "description":
+    "React Form Layout inspired by gridforms. This implementation uses flexbox.",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": ["css", "es", "lib", "umd"],

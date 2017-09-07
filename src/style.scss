@@ -1,3 +1,8 @@
+$gray: #495057 !default;
+$gray-light: #868e96 !default;
+$gray-lighter: #e9ecef !default;
+$brand-warning: #f0ad4e !default;
+
 .tforms {
   width: 100%;
 
@@ -37,6 +42,7 @@
         text-transform: uppercase;
         font-weight: normal;
         letter-spacing: 1px;
+        display: block;
       }
 
       &:last-child {
@@ -63,8 +69,8 @@
   // if fieldset is disabled
   fieldset[disabled] .tforms--field,
   fieldset[disabled] .tforms--field:hover,
-  .tforms--field[data-disabled="true"],
-  .tforms--field[data-disabled="true"]:hover {
+  .tforms--field[data-disabled='true'],
+  .tforms--field[data-disabled='true']:hover {
     background-color: $gray-lighter;
   }
 }
